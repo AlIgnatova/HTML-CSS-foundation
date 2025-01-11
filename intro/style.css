@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(252, 232, 241);
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: monospace;
+}
+
+.items-list {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: palevioletred;
+    width: 250;
+}
