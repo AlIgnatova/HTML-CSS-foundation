@@ -2,5 +2,12 @@ span.subject {
     color: rgb(72, 156, 76)
 }
 span.humanitary {
-    color: rgb(225, 153, 225)
+    color: rgb(151, 95, 151)
+}
+.simple {
+    border: 10px ridge rgb(111, 111, 191);
+    background-color: rgb(215, 234, 210);
+}
+p {
+    line-height: 40px;
 }
