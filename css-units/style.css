@@ -1,0 +1,41 @@
+:root{
+    font-size: 32px;
+}
+
+body {
+    background-color: rgb(239, 214, 227);
+    font-size: 16px;
+}
+.outer-div {
+    background-color: cornflowerblue;
+    display: block; 
+    width: 500px;
+    height: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.inner-div {
+    background-color: bisque;
+    width: 50%;
+    text-align: center;
+}
+
+.rem-outer-div {
+    background-color: chartreuse;
+    font-size: 2rem;
+    width: 50vw;
+}
+.rem-inner-div {
+    font-size: 0.5rem;
+    width: 50vw;
+    background-color: antiquewhite;
+}
+
+.lorem-text {
+    background-color: aquamarine;
+}
+
+#unique-lorem-text {
+    font-size: 35px;
+    letter-spacing: 5px;
+}
