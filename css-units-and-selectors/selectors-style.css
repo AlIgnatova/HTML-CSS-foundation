@@ -1,0 +1,46 @@
+/* Type selectors */
+body{
+    background-color: pink;
+}
+h2 {
+    margin-top: 0;
+}
+
+/* Class Selector */
+.fancy-text {
+    font-style: italic;
+    color: purple;
+
+}
+/* ID selector */
+#unique-quote {
+    text-decoration: overline;
+    margin-top: 20px;
+}
+
+/* Attribute Selector */
+[type="submit"] {
+    color:blue
+}
+[type="text"] {
+    font-family: serif;
+}
+
+[name=username] {
+    font-family: monospace;
+    color: red;
+}
+
+/* div p => вс параграфи, които са в див-ове, дори и да не е дирекнто под див,
+ако е div > p , то тогава е само за параграфите, които са директно наследник на див*/
+
+/*Multiple selectors - and - да отговоря едновременно на вс условия */
+
+input.fancy-input[name=username]{
+    font-size: 5;
+    background-color: rgb(184, 184, 226);
+}
+
+
+
+
