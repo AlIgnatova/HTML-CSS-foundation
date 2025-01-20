@@ -1,0 +1,9 @@
+div {
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
+div div {
+    background-color: pink;
+    width: 50%;
+}
