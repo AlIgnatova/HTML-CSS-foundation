@@ -1,0 +1,8 @@
+div > p {
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+.parent > p {
+    background-color: pink;
+}

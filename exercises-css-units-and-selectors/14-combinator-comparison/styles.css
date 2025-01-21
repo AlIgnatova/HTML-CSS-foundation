@@ -3,7 +3,7 @@ div p {
     background-color: rgb(253, 216, 222);
 }
 
-div>p {
+div > p {
     color: rgb(224, 138, 152);
     background-color: rgb(204, 217, 241);
 }
