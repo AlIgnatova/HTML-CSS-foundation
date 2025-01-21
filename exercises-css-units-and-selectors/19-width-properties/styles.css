@@ -1,0 +1,6 @@
+.width-example {
+    width: 200px;
+    min-width: 10px;
+    max-width: 1000px;
+    background-color: pink;
+}
