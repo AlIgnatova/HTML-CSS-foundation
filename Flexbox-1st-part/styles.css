@@ -1,0 +1,29 @@
+.container {
+    background-color: pink;
+    width: 30vw;
+    height: 20vh;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item {
+    background-color: rgb(181, 207, 255);
+    pad: 5px;
+}
+
+.item-3{
+    order: 2;
+    flex-grow: 1;
+}
+
+.item-2{
+    order: 1;
+    flex-grow: 2;
+    background-color: cornflowerblue;
+    align-self: flex-start;
+}
